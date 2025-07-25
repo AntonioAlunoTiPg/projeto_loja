@@ -25,4 +25,4 @@ CREATE TABLE pagamentos (
     forma_pagamento VARCHAR(50),
     data_pagamento DATE
 );
-git push -u origin main
+ 
