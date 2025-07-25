@@ -1,4 +1,3 @@
-# app/database/conexao.py
 import mysql.connector
 import os
 from dotenv import load_dotenv
@@ -12,5 +11,3 @@ def conectar():
         password=os.getenv("DB_PASS"),
         database=os.getenv("DB_NAME")
     )
-
-
