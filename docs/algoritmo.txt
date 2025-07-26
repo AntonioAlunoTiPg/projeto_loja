@@ -1,0 +1,39 @@
+# Algoritmo LojaMaster — Sistema de Gestão Comercial
+
+1. Início do sistema
+   └─ Carregar configurações e banco de dados
+
+2. Autenticação
+   ├─ Usuário insere login e senha
+   └─ Validação via tabela 'usuarios'
+
+3. Menu Principal
+   ├─ Acesso aos módulos:
+   │   ├─ Cadastro (produtos, clientes, fornecedores, categorias, usuários)
+   │   ├─ Vendas (nova venda, listar vendas)
+   │   ├─ Estoque (entrada, saída, relatório)
+   │   └─ Pagamentos (registro e status)
+
+4. Cadastro de Produto
+   ├─ Inserção dos dados
+   ├─ Verificação se categoria existe
+   └─ Salvar em 'produtos'
+
+5. Realizar Venda
+   ├─ Selecionar cliente
+   ├─ Adicionar produtos
+   ├─ Calcular total
+   ├─ Salvar em 'vendas'
+   └─ Atualizar estoque
+
+6. Registro de Pagamento
+   ├─ Vincular à venda
+   └─ Definir método e status
+
+7. Relatórios
+   ├─ Estoque atual
+   ├─ Histórico de vendas
+   └─ Pagamentos pendentes
+
+8. Encerramento
+   └─ Logout e fechamento do sistema

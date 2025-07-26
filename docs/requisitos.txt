@@ -1,0 +1,29 @@
+# Requisitos LojaMaster
+
+## 1. Funcionais
+- Cadastro completo de produtos, clientes, fornecedores e usuários
+- Registro de vendas com vínculo ao cliente e produtos
+- Controle de estoque com atualizações automáticas
+- Pagamentos integrados com status (pago, pendente, estornado)
+- Autenticação por tipo de usuário (admin, operador)
+- Relatórios visuais em gráficos (estoque, vendas, receita)
+
+## 2. Não Funcionais
+- Interface responsiva com Bootstrap 5
+- Sistema seguro com criptografia de senhas
+- Tempo de resposta inferior a 2 segundos por requisição
+- Organização modular em MVC (model, view, controller)
+- Compatível com servidores Linux e Windows
+
+## 3. Tecnológicos
+- Backend: Python 3.11 + Flask
+- Banco de dados: MySQL
+- ORM: MySQL Connector ou SQLAlchemy (opcional)
+- Estilização: Bootstrap + CSS customizado
+- Gerador de PDF: dompdf ou alternativa
+- Autenticação opcional com JWT para API
+
+## 4. Requisitos de Usuário
+- Acesso simples e intuitivo
+- Feedback visual para cada ação (sucesso/erro)
+- Capacidade de imprimir ou exportar dados
